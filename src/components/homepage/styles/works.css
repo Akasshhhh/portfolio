@@ -1,0 +1,66 @@
+@import "../../../data/styles.css";
+
+.works {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.section-title {
+	font-size: 3rem;
+	font-weight: 800;
+	color: var(--primary-color);
+	margin-bottom: 20px;
+}
+
+.works-body {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.work {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding: 20px 10px 20px 0px;
+	border-radius: 10px;
+}
+
+.work-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.work-company {
+	font-size: 20px;
+	font-weight: 800;
+	color: var(--secondary-color);
+}
+
+.work-duration {
+	font-size: 14px;
+	font-weight: 900;
+	font-style: italic;
+	color: var(--secondary-color);
+}
+
+.work-role {
+	font-size: 18px;
+	color: var(--secondary-color);
+	font-weight: 500;
+}
+
+.work-details {
+	list-style-type: square;
+	padding-left: 20px;
+	margin: 10px 0;
+}
+
+.work-details li {
+	color: var(--secondary-color);
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 5px;
+}
