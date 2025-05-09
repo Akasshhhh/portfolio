@@ -12,6 +12,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import Skills from "../components/skills/skills";
 
 import INFO from "../data/user";
 
@@ -133,6 +134,9 @@ const Homepage = () => {
 								<span className="homepage-resume-text">Download Resume</span>
 							</a>
 						</div>
+						<h1 className="homepage-title">Skills</h1>
+						<Skills />
+
 						<h1 className="homepage-title">Projects</h1>
 						<div className="homepage-projects">
 							<AllProjects />
