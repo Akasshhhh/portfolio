@@ -30,7 +30,7 @@ const INFO = {
 			title: "TradeEstates",
 			description:
 				"A full-stack web application for buying and selling real estate properties. Features include user-friendly property search, property management, payment processing, and user authentication.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
 			linkText: "View Project",
 			link: "https://trade-estates.vercel.app/",
 		},
@@ -39,7 +39,7 @@ const INFO = {
 			title: "PDFile AI",
 			description:
 				"A modern web application that allows users to upload PDF documents and interact with them using AI-powered chat. Built with Next.js, TypeScript, and LangChain.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
 			linkText: "View Project",
 			link: "https://pdfile-ai.vercel.app",
 		},
@@ -47,7 +47,7 @@ const INFO = {
 			title: "Netflix Clone",
 			description:
 				"A modern Netflix clone built with Next.js 14, featuring authentication, movie browsing, and watchlist functionality.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png",
 			linkText: "View Project",
 			link: "https://netflix-clone-three-silk-99.vercel.app/home",
 		},
@@ -57,7 +57,7 @@ const INFO = {
 			title: "Degen RWA",
 			description:
 				"A React.js application that allows users to mint and manage their own unique NFTs. Built with Javascript, Solidity and Ethers.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ethereum-icon-purple.svg",
 			linkText: "View Project",
 			link: "https://degen-rwa.vercel.app",
 		},
