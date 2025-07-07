@@ -4,3 +4,20 @@
 	margin: 0;
 	padding: 0;
 }
+
+@media (max-width: 600px) {
+	.logo {
+		max-width: 60px;
+		height: auto;
+	}
+}
+@media (max-width: 480px) {
+	.logo {
+		max-width: 40px;
+	}
+}
+@media (max-width: 400px) {
+	.logo {
+		max-width: 32px;
+	}
+}

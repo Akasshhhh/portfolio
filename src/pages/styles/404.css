@@ -95,3 +95,16 @@
 		padding: 15px 15px;
 	}
 }
+
+@media (max-width: 400px) {
+	.notfound-title {
+		font-size: 32px;
+	}
+	.not-found-message {
+		font-size: 12px;
+	}
+	.not-found-link {
+		font-size: 12px;
+		padding: 10px 10px;
+	}
+}

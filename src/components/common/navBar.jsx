@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
+	const [menuOpen, setMenuOpen] = useState(false);
+
+	const handleHamburgerClick = () => {
+		setMenuOpen((prev) => !prev);
+	};
 
 	return (
 		<React.Fragment>
@@ -51,6 +56,21 @@ const NavBar = (props) => {
 						</ul>
 					</div>
 				</nav>
+				<button className="nav-hamburger" onClick={handleHamburgerClick} aria-label="Open menu">
+					<span className="nav-hamburger-bar"></span>
+					<span className="nav-hamburger-bar"></span>
+					<span className="nav-hamburger-bar"></span>
+				</button>
+				{menuOpen && (
+					<div className="nav-dropdown">
+						<ul>
+							<li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+							<li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
+							<li><Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link></li>
+							<li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+						</ul>
+					</div>
+				)}
 			</div>
 		</React.Fragment>
 	);

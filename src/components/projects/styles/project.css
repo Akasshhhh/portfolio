@@ -68,6 +68,38 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: auto;
+	}
+	.project-title {
+		font-size: 1rem;
+	}
+	.project-link {
+		font-size: 0.9rem;
+		padding-top: 10px;
+	}
+	.project-link-text {
+		padding-left: 10px;
+	}
+	.project-container {
+		padding: 10px 30px 30px 0px;
+	}
+}
+@media (max-width: 480px) {
+	.project-title {
+		font-size: 0.9rem;
+	}
+	.project-link {
+		font-size: 0.8rem;
+	}
+	.project-container {
+		padding: 10px 30px 30px 0px;
+	}
+}
+@media (max-width: 400px) {
+	.project-title {
+		font-size: 0.8rem;
+	}
+	.project-container {
+		padding: 10px 30px 30px 0px;
 	}
 }

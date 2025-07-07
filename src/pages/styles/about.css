@@ -115,3 +115,35 @@
 		width: 80%;
 	}
 }
+
+@media (max-width: 480px) {
+	.about-container {
+		padding-top: 30px;
+	}
+	.about-main {
+		flex-direction: column;
+	}
+	.about-image-container {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.about-title {
+		font-size: 1.1rem;
+	}
+	.about-subtitle {
+		font-size: 0.95rem;
+		width: 100% !important;
+	}
+	.about-socials-mobile {
+		flex-direction: column;
+		gap: 8px;
+	}
+}
+@media (max-width: 400px) {
+	.about-title {
+		font-size: 0.95rem;
+	}
+	.about-subtitle {
+		font-size: 0.85rem;
+	}
+}

@@ -16,7 +16,31 @@
 }
 
 @media (max-width: 600px) {
+	.all-projects-container {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 100%;
+	}
 	.all-projects-project {
-		width: calc(100% / 2);
+		width: 100%;
+		padding: 6px 0;
+		text-align: left;
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 480px) {
+	.all-projects-project {
+		padding: 4px 0;
+		text-align: left;
+	}
+}
+
+@media (max-width: 400px) {
+	.all-projects-project {
+		padding: 2px 0;
+		text-align: left;
 	}
 }

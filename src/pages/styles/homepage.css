@@ -11,6 +11,7 @@
 	padding-top: 25px;
 }
 
+
 .homepage-first-area {
 	display: flex;
 	justify-content: flex-start;
@@ -22,10 +23,6 @@
 	flex-direction: column;
 	align-items: flex-start;
 	width: 100%;
-}
-
-.homepage-title {
-	width: 100% !important;
 }
 
 .homepage-subtitle {
@@ -94,7 +91,7 @@
 }
 
 .homepage-works {
-	flex-basis: 1024px;
+	flex-basis: auto;
 	padding-top: 30px;
 }
 
@@ -112,7 +109,7 @@
 
 	.homepage-title {
 		width: 100% !important;
-		margin-top: 20px;
+		margin: 15px 0 5px 0;
 	}
 
 	.homepage-subtitle {
@@ -167,4 +164,89 @@
 	font-size: 3rem;
 	color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+	.homepage-logo-container {
+		padding-top: 30px;
+		justify-content: left;
+	}
+	.homepage-logo-container > div {
+		position: relative !important;
+		top: auto !important;
+		z-index: auto !important;
+		border: none !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+	}
+	.homepage-container {
+		padding: 0;
+	}
+	.homepage-first-area,
+	.homepage-after-title {
+		flex-direction: column;
+	}
+	.homepage-projects,
+	.homepage-articles,
+	.homepage-works {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		flex-basis: auto;
+		width: 100%;
+	}
+	.homepage-socials {
+		flex-direction: row !important;
+		justify-content: left;
+		align-items: center;
+		gap: 10px;
+		padding: 15px 0;
+	}
+	.homepage-resume {
+		padding-top: 10px;
+	}
+	.homepage-title {
+		font-size: 3rem;
+		margin-top: 20px;
+	}
+	.homepage-subtitle {
+		font-size: 1rem;
+		margin-top: 5px;
+	}
+	.resume-download-button {
+		font-size: 1rem;
+		padding: 8px 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	.homepage-logo-container {
+		padding-top: 30px;
+		justify-content: left;
+	}
+	.homepage-logo-container > div {
+		position: relative !important;
+		top: auto !important;
+		z-index: auto !important;
+		border: none !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+	}
+	.homepage-title {
+		font-size: 2.5rem;
+		padding-top: 30px;
+	}
+	.homepage-subtitle {
+		font-size: 0.95rem;
+	}
+	.homepage-social-icon {
+		font-size: 18px;
+		padding-right: 6px;
+	}
+	.resume-download-button {
+		font-size: 0.9rem;
+		padding: 6px 8px;
+	}
+}
+
+
 
